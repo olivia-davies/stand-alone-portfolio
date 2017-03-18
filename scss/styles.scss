@@ -8,7 +8,7 @@ YOUR STYLES
 
 //header//
 .main-nav {
-    height: 100%;
+    height: 100vh;
     width: 30%;
     background: #fafafa;
     border-right: 5px solid #dfdddd;
@@ -120,12 +120,26 @@ MEDIA QUERIES
         width: 100px;
         border-radius: 2em;
     }
+    
+    .main-nav {
+         border-right: 2px solid #dfdddd;
+    }
+    
+    figure {
+        width: 85%;
+        flex-direction: row;
+    }
+    .caption {
+        filter: blur(0px);
+    }
 }
 
 
 /* Tablet:  768px = 160em */ ///////
 @media screen and (min-width: 48em) {
     /* Diagnostic Styling. Delete When Done. */
+    
+
 }
 
 
@@ -134,5 +148,7 @@ MEDIA QUERIES
     /* Diagnostic Styling. Delete When Done. */
     .main-nav {
         background: #fafafa;
+       
+
     }
 }
