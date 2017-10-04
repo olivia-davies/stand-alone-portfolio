@@ -1,0 +1,44 @@
+
+html {
+    background:rgb(255, 250, 237);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#my-name {
+        font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+    
+    width: 80%;
+    height: 2000px;
+    margin: auto;
+    padding-top:30px;
+}
+
+
+
+nav ul { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:0;
+  text-align:right;
+  width: 960px; 
+  max-width: 100%;
+}
+
+
+ul {
+font-family: 'Raleway', sans-serif;
+}
+
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background: lightpink;
+        ;
+
+}
